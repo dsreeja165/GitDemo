@@ -39,6 +39,8 @@ public class CopyofStandalonetest2 extends Basedrivertest {
 	public void SubmitOrder( HashMap<String, String> input0 )throws IOException {
 		// TODO Auto-generated method stubHashMap<String, String> input0
 		
+		System.out.println("this is the updatef for GITHUB");
+		
 		
 		
 		pageobjectproductcatalouge productcatlouge =loginpageobjects.loginactions(input0.get("email"),input0.get("pwd"));
